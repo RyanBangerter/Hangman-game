@@ -19,7 +19,8 @@
 .hangman{
   width: auto;
   margin: 0 auto;
-  /*padding-left: 150px;*/
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 /*div.col-2{
@@ -41,7 +42,6 @@
 #Attempts{
   color: black;
   text-align: center;
-  font-size: large;
 }
 #hint{
   color: black;
@@ -61,16 +61,15 @@ p.text-center{
   font-weight: bold;
   text-shadow: 0 0 3px #FF0000;
 }
-@import url(https://fonts.googleapis.com/css?family=Arvo:700);
-@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
 .container{
-  border: 2px solid black;
+  border: 1px solid #c68c53;
   margin: 0 auto;
-  font-family: Arvo;
-  font-size: large;
+  font-family:'Nanum Pen Script', cursive;
+  font-size: x-large;
   letter-spacing: 1px;
   font-weight: bolder;
 }
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
 body {
   background-color: #222;
 }
@@ -162,6 +161,6 @@ div.abc{
 }}*/
 @media(min-width: 980px){
   .col-5{
-    padding-bottom: 2px!important;
+    padding-bottom: 5px!important;
   }
 }
