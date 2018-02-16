@@ -1,1 +1,77 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<title>Hangman</title>
+</head>
+<body class="content">
+	<div class="container">
+		<div class="row">
+			<div class="span4"></div>
+			<!-- <div class="span4"><img class= "img-fluid" alt="Responsive image" src="assets/images/wildwesthangman.jpg"></div> -->
+			<div class="span4"></div>
+		</div>
+	</div>
+	<div class="plate">
+	  <p class="script"><span>HANGMAN</span></p>
+	  <p class="shadow text1">WILD</p>
+	  <p class="shadow text2">WEST</p>
+	  <p class="shadow text3">STYLE</p>
+	  <!-- <p class="script"><span></span></p> -->
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="text-center">
+					<input type="button" value="Re-Start" onclick="window.location.reload()">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div id="possible"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-5">
+				<div id="rightGuess">Right Guess</div>
+			</div>
+			<div class="col-2">
+				<div id="wrongGuess">Wrong Guess</div>
+			</div>
+			<div class="col-5">
+				<div id="underScore"></div>
+			</div>
+		</div>
+	</div>	
+	<div class="hangman">
+		<div class="span4">
+			<!-- <img class="hangman" src="assets/images/wildwestbackground.jpg"> -->
+	    </div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div id="Attempts">You Get 10 Wrong Guesses Good Luck</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12">
+				<div id="hint"></div>
+			</div>
+		</div>
+		<div class="row1">
+			<div class="hangman">
+				<img class="span4" class="image-fluid" src="assets/images/wildwesthangman.jpg">
+			</div>
+		</div>
+	</div>		
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
